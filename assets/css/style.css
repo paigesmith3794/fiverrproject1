@@ -1,0 +1,107 @@
+header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: 20px;
+  color: forestgreen;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background: url(https://cdn4.vectorstock.com/i/1000x1000/47/33/empty-classroom-background-flat-style-vector-21164733.jpg);
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: forestgreen;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary,
+.reset {
+  background-color: lightgreen;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.btn-primary:hover,
+.reset:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 100px;
+  text-align: center;
+  height: auto;
+  width: 700px;
+  background: white;
+  border-radius: 25px;
+}
+
+button {
+  height: 80px;
+  width: 100px;
+}
+
+h2,
+#message,
+#finalMessage {
+  font-family: "Lato", sans-serif;
+}
+
+.thisChoice:hover {
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+}
+
+#gif {
+  margin: 20px;
+}
+
+#startOverBtn {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: auto;
+    height: auto;
+    margin-top: 90px;
+  }
+  button {
+    height: auto;
+    width: auto;
+  }
+  header {
+    font-size: auto;
+  }
+  .thisChoice:hover {
+    background-color: lightgreen;
+    color: white;
+    padding: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: auto;
+    height: auto;
+    margin-top: 90px;
+  }
+  button {
+    height: auto;
+    width: auto;
+  }
+  header {
+    font-size: auto;
+  }
+  .thisChoice:hover {
+    background-color: none;
+    color: none;
+    padding: none;
+  }
+}
