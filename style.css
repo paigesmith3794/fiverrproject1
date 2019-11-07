@@ -1,0 +1,98 @@
+  header{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 45px;
+        font-weight: 20px;
+        color: forestgreen;
+        text-align: center;
+        background: white;
+    }
+    
+    body{
+        background: url(https://static1.squarespace.com/static/5421e54ee4b065d2b12ae096/t/5a7e6b9fec212d8118adc0b9/1518300083755/herbs+oil.jpg);
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+        color: forestgreen;
+        margin-bottom: 20px;
+    }
+    
+    .btn-primary,.reset{
+        background-color: lightgreen;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 30px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .btn-primary:hover, .reset:hover{
+        background-color: lightgreen;
+    }
+    
+    .container{
+        margin-top: 200px;
+        text-align: center;
+        height: auto;
+        width: 800px;
+        background: white;
+    }
+
+    button{
+        height: 80px;
+        width: 100px;
+    }
+    
+    h2, #message, #finalMessage{
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .thisChoice:hover{
+        background-color: lightgreen;
+        color: white;
+    }
+    
+    #gif{
+        margin: 20px;
+    }
+
+    #startOverBtn{
+        margin-bottom: 20px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: auto;
+            height: auto;
+            margin-top: 90px;
+        }
+        button{
+            height: auto;
+            width: auto;
+        }
+        header{
+            font-size: auto;
+        }
+        .thisChoice:hover{
+            background-color: lightgreen;
+            color: white;
+            padding: none;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .container {
+            width: auto;
+            height: auto;
+            margin-top: 90px;
+        }
+        button{
+            height: auto;
+            width: auto;
+        }
+        header{
+            font-size: auto;
+        }
+        .thisChoice:hover{
+            background-color: none;
+            color: none;
+            padding: none;
+        }
+      }
