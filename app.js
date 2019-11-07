@@ -97,7 +97,7 @@ function newQuestion() {
 }
 
 function countdown() {
-    seconds = 15;
+    seconds = 45;
     $('#timeLeft').html('<h3>Time Remaining: ' + seconds + '</h3>');
     answered = true;
 
@@ -139,10 +139,10 @@ function answerPage() {
     }
 
     if (currentQuestion == (triviaQuestions.length - 1)) {
-        setTimeout(scoreboard, 7000)
+        setTimeout(scoreboard, 5000)
     } else {
         currentQuestion++;
-        setTimeout(newQuestion, 7000);
+        setTimeout(newQuestion, 5000);
     }
 }
 
