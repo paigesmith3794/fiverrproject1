@@ -13,6 +13,9 @@
         font-size: 25px;
         color: forestgreen;
         margin-bottom: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .btn-primary,.reset{
@@ -30,9 +33,6 @@
     .container{
         margin-top: 200px;
         text-align: center;
-        height: auto;
-        width: 800px;
-        background: white;
     }
 
     button{
