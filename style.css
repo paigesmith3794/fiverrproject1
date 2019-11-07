@@ -13,7 +13,7 @@
         font-size: 25px;
         color: forestgreen;
         margin-bottom: 20px;
-        background-position: center;
+        background-position: relative;
         background-repeat: no-repeat;
         background-size: cover;
     }
