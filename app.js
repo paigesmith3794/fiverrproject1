@@ -125,12 +125,12 @@ function answerPage() {
     if ((userSelect == rightAnswerIndex) && (answered == true)) {
         correctAnswer++;
         $('#message').html(messages.correct);
-        $('#gif').html('<img src = "assets/images/' + gifArray[currentQuestion] + '.gif" width = "300px">');
+        $('#gif').html('<img src = ' gifArray[currentQuestion] + '.gif" width = "300px">');
     } else if ((userSelect != rightAnswerIndex) && (answered == true)) {
         incorrectAnswer++;
         $('#message').html(messages.incorrect);
         $('#correctedAnswer').html('The correct answer was: ' + rightAnswerText);
-        $('#gif').html('<img src = "assets/images/incorrectanswer.gif" width = "300px">');
+        $('#gif').html('<img src = "incorrectanswer.gif" width = "300px">');
     } else {
         unanswered++;
         $('#message').html(messages.endTime);
@@ -139,10 +139,10 @@ function answerPage() {
     }
 
     if (currentQuestion == (triviaQuestions.length - 1)) {
-        setTimeout(scoreboard, 5000)
+        setTimeout(scoreboard, 6000)
     } else {
         currentQuestion++;
-        setTimeout(newQuestion, 5000);
+        setTimeout(newQuestion, 6000);
     }
 }
 
