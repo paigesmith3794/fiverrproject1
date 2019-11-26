@@ -1,7 +1,7 @@
 Fiverr Order #FO5127B535046
 
 <h2>Fiverr Gig Expectations</h2>
-<img src="
+Create a 10 question in-browser trivia game, plus design it. Push code to GitHub, then provide the link to the customer.
 
 <h2>Completed Project</h2>
 <br>
