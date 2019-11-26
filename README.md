@@ -6,5 +6,5 @@ Create a 10 question in-browser trivia game, plus design it. Push code to GitHub
 <h2>Completed Project</h2>
 <br>
 <img src="assets/images/screenshot.png">
-<br>
+
 <h3>Please check out my gigs on my Fiverr Profile: https://www.fiverr.com/paigesmith3794</h3>
